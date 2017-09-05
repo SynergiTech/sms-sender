@@ -7,8 +7,8 @@ $ composer require synergitech/sms-sender
 ## Usage
 
 ```
-$client = new SMSClient('YOUR_URL', 'YOUR_API_KEY');
-$message = new SMSMessage($client);
+$client = new \SynergiTech\SMS\Client('YOUR_URL', 'YOUR_API_KEY');
+$message = new \SynergiTech\SMS\Message($client);
 
 $message->reset(); // allows object re use à la codeigniter
 

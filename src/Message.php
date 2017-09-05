@@ -1,7 +1,7 @@
 <?php
 namespace SynergiTech\SMS;
 
-class SMSMessage
+class Message
 {
 	protected $client;
 	private $attributes = array();
