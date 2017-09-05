@@ -1,0 +1,12 @@
+{
+    "name": "synergitech/sms-sender",
+    "type": "library",
+    "require": {
+        "rmccue/requests": ">=1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SynergiTech\\SMS\\": "src/"
+        }
+    }
+}
